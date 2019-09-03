@@ -1,0 +1,109 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+  }
+  
+  .bg-light {
+	  background: url("../images/Simple-Background-Images-10.JPEG");
+		background-repeat: repeat;
+  }
+  
+  .site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: 'Quicksand', sans-serif;
+  }
+  
+  .site-content {
+	color: #777777;
+	flex: 1;
+  }
+	
+
+		
+  .navigation-container {
+	background-color: lightgray;
+	border-bottom: 2px solid #4aaaa5;
+	padding: 0;
+  }
+  
+  .navbar {
+	padding: 0;
+  }
+  
+  .navbar-light .myname {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-size: 32px;
+	font-weight: bold;
+  }
+
+  .navbar-light .myname {
+    color: #ffffff
+
+	}
+
+	.myname {
+			background-color: #4aaaa5;
+			padding: 10px 25px;
+		}
+  
+  .nav-item a {
+	font-size: 20px;
+  }
+	
+  .card {
+	border-radius: 0;
+	opacity: 0.9;
+  }
+  
+  .card-title {
+	color: #666666;
+	font-weight: bold;
+  }
+
+  .card-text {
+	line-height: 1.2;
+	font-size: 1.0em;
+  }
+  
+  .floating-img {
+	/* border: 1px solid green; */
+	float: left;
+  }
+  
+  footer {
+	background-color: #666666;
+	color: #ffffff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-top: 3px solid #4aaaa5;
+  }
+
+  .portfolio-overlay {
+		position: relative;
+		background-color: #ffffff;
+		height: 40px;
+		line-height: 40px;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-align: center;
+		width: 100%;
+		opacity: 0.9;
+	}
+		
+  .form-group input,
+  .form-group textarea {
+	border-radius: 0;
+  }
+  
+  .form-group label {
+	font-size: 20px;
+  }
+  
+  .btn-primary {
+	background-color: #666666;
+	border: none;
+	border-radius: 0;
+  }
